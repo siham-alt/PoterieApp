@@ -1,66 +1,142 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🏺 PoterieApp
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**PoterieApp** est une plateforme e-commerce dédiée à la vente de décorations artisanales en poterie et à la réservation d'ateliers de poterie. Elle vise à promouvoir l'artisanat local en proposant une expérience utilisateur simple, moderne et intuitive.
 
-## About Laravel
+## 📌 Présentation du projet
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Le projet consiste à développer une application web permettant aux passionnés de poterie et de décoration artisanale de découvrir et d'acheter des créations en poterie, mais également de réserver des activités et des ateliers de poterie en fonction des disponibilités.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+La plateforme dispose de deux espaces principaux :
+- **Espace client :** pour consulter les produits, effectuer des achats, réserver des ateliers et gérer son compte.
+- **Espace administrateur :** pour gérer les produits, les catégories, les stocks, les activités, les réservations, les commandes et les clients.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🎯 Objectifs
 
-## Learning Laravel
+- Promouvoir l'artisanat local et les créations en poterie.
+- Faciliter la vente de décorations artisanales en ligne.
+- Permettre la réservation d'ateliers de poterie.
+- Simplifier la gestion des produits, des stocks et des commandes.
+- Offrir une expérience fluide aux clients et aux administrateurs.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## ✨ Fonctionnalités principales
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 👤 Espace client
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Consultation des produits et des différentes collections.
+- Recherche et filtrage des produits par catégorie et prix.
+- Consultation des détails des produits.
+- Ajout de produits au panier et gestion des quantités.
+- Consultation des ateliers de poterie disponibles.
+- Réservation d'activités selon les créneaux disponibles.
+- Gestion du compte et des informations personnelles.
+- Consultation de l'historique des commandes et des réservations.
+- Consultation des articles et actualités autour de la poterie.
 
-## Laravel Sponsors
+### ⚙️ Espace administrateur
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- Gestion des produits : ajout, modification et suppression.
+- Gestion des catégories et des stocks.
+- Suivi des disponibilités des produits.
+- Gestion des ateliers, des formateurs et des créneaux horaires.
+- Gestion des réservations et des places disponibles.
+- Suivi et gestion des commandes.
+- Gestion des clients et de leurs demandes.
+- Suivi des paiements et des livraisons.
+- Consultation des statistiques et des rapports d'activité.
 
-### Premium Partners
+## 🛠️ Technologies utilisées
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+- **Backend :** Laravel / PHP
+- **Frontend :** HTML, CSS, JavaScript
+- **Base de données :** MySQL
 
-## Contributing
+## 🚀 Installation et configuration
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 1. Cloner le projet
 
-## Code of Conduct
+```bash
+git clone https://github.com/VOTRE-USERNAME/PoterieApp.git
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 2. Accéder au dossier
 
-## Security Vulnerabilities
+```bash
+cd PoterieApp
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 3. Installer les dépendances PHP
 
-## License
+```bash
+composer install
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 4. Installer les dépendances JavaScript
+
+```bash
+npm install
+```
+
+### 5. Configurer le fichier d'environnement
+
+```bash
+cp .env.example .env
+```
+
+Configurer ensuite les informations de connexion à la base de données dans le fichier `.env` :
+
+```env
+DB_DATABASE=poterie_db
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+### 6. Générer la clé de l'application
+
+```bash
+php artisan key:generate
+```
+
+### 7. Exécuter les migrations
+
+```bash
+php artisan migrate
+```
+
+### 8. Lancer l'application
+
+Dans un premier terminal :
+
+```bash
+php artisan serve
+```
+
+Dans un deuxième terminal :
+
+```bash
+npm run dev
+```
+
+L'application sera accessible à l'adresse :
+
+```text
+http://127.0.0.1:8000
+```
+
+## 📁 Structure du projet
+
+Le projet suit l'architecture MVC de Laravel :
+
+- `app/` : logique métier et modèles.
+- `routes/` : définition des routes.
+- `resources/` : vues et ressources frontend.
+- `database/` : migrations et configuration des données.
+- `public/` : fichiers accessibles publiquement.
+- `config/` : fichiers de configuration.
+
+## 👩‍💻 Auteur
+
+Développé dans le cadre d'un projet de développement web.
+
+---
+
+**PoterieApp – L'art de la poterie à portée de clic.** 🏺
